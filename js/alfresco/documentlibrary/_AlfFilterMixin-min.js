@@ -1,0 +1,1 @@
+define(["dojo/_base/declare","alfresco/core/Core","dojo/_base/lang","dojo/_base/array","dojo/io-query"],function(b,d,e,f,a){return b([d],{processFilter:function c(g){var h=a.queryToObject(g);if(h==null){h={path:"/"}}return h}})});

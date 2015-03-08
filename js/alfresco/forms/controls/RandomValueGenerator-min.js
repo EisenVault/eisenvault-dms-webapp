@@ -1,0 +1,1 @@
+define(["alfresco/forms/controls/DojoValidationTextBox","dojo/_base/declare"],function(a,b){return b([a],{getWidgetConfig:function c(){return{id:this.generateUuid(),name:this.name,value:(this.value!=null&&this.value!="")?this.value:this.generateUuid()}}})});

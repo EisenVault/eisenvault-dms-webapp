@@ -1,0 +1,1 @@
+define(["dojo/_base/declare","dijit/_WidgetBase","alfresco/core/Core","dojo/_base/lang","dojo/on","dojo/sniff"],function(g,c,h,b,i,d){return g([c,h],{constructor:function e(k){b.mixin(k);if(this.attributes==null){this.attributes={}}},setAttributes:function f(k){var l=b.clone(k);b.mixin(this.attributes,l)},report:function j(){},display:function a(){}})});

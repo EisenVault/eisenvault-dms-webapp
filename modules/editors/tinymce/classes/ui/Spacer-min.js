@@ -1,0 +1,1 @@
+define("tinymce/ui/Spacer",["tinymce/ui/Widget"],function(a){return a.extend({renderHtml:function(){var b=this;b.addClass("spacer");b.canFocus=false;return'<div id="'+b._id+'" class="'+b.classes()+'"></div>'}})});

@@ -1,0 +1,1 @@
+define("tinymce/ui/StackLayout",["tinymce/ui/FlowLayout"],function(a){return a.extend({Defaults:{containerClass:"stack-layout",controlClass:"stack-layout-item",endClass:"break"}})});

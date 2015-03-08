@@ -1,0 +1,1 @@
+define(["dojo/_base/declare","alfresco/renderers/Actions","alfresco/renderers/_XhrActionsMixin"],function(b,c,a){return b([c,a],{})});

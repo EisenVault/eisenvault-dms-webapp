@@ -1,0 +1,1 @@
+define(["dojo/_base/declare","alfresco/layout/LeftAndRight","dojo/dom-class"],function(b,a,d){return b([a],{cssRequirements:[{cssFile:"./css/Header.css"}],postCreate:function c(){d.add(this.domNode,"alfresco-header-Header");this.inherited(arguments)}})});

@@ -1,0 +1,1 @@
+define(["dojo/_base/declare","alfresco/core/Core","alfresco/core/CoreXhr","dojo/_base/lang","service/constants/Default"],function(a,c,b,e,g){return a([c,b],{constructor:function d(h){e.mixin(this,h);this.alfSubscribe("ALF_DOLOGOUT",e.hitch(this,"doLogout"))},doLogout:function f(){this.serviceXhr({url:g.URL_PAGECONTEXT+"dologout",method:"POST",callbackScope:this})}})});

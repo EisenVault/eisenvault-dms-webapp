@@ -1,0 +1,1 @@
+define(["alfresco/core/Core"],function(a){function b(d,c){var e=[];if(arguments.length>1){e=e.concat(Array.prototype.slice.call(arguments).slice(1))}return a.prototype.message.apply({i18nScope:d},e)}return{msg:b}});

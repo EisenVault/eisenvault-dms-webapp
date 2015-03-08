@@ -1,0 +1,1 @@
+define(["dojo/_base/declare","alfresco/core/Core","alfresco/core/I18nUtils","alfresco/charts/ccc/PieChart"],function(b,c,d,a){return b([a],{explodedSliceRadius:"1%",extensionPoints:{slice_innerRadiusEx:"20%"}})});

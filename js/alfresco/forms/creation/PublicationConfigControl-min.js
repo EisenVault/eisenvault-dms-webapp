@@ -1,0 +1,1 @@
+define(["alfresco/forms/controls/MultipleEntryFormControl","dojo/_base/declare","alfresco/forms/creation/PublicationConfigCreator"],function(e,b,a){return b([e],{getWidgetConfig:function d(){return{id:this.generateUuid(),name:this.name,value:this.value,pubSubScope:this.pubSubScope}},createFormControl:function c(f,g){return new a(f)}})});

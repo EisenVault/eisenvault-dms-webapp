@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+   <name>EisenVault</name>
+   <description>EisenVault Secure Document Storage</description>
+   <source-id>site</source-id>
+   <properties>
+      <theme>eisenVaultTheme</theme>
+      <root-page>site-index</root-page>
+   </properties>
+</configuration>

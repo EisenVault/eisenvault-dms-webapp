@@ -1,0 +1,1 @@
+define(["alfresco/core/ProcessWidgets","dojo/_base/declare","alfresco/core/FullScreenMixin","dojo/_base/lang"],function(d,b,c,e){return b([d,c],{postCreate:function a(){this.inherited(arguments);this.alfSubscribe(this.fullWindowTopic,e.hitch(this,this.toggleFullScreen,true));this.alfSubscribe(this.fullScreenTopic,e.hitch(this,this.toggleFullScreen,false))}})});

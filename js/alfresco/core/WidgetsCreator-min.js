@@ -1,0 +1,1 @@
+define(["dojo/_base/declare","alfresco/core/Core","alfresco/core/CoreWidgetProcessing","dojo/_base/lang"],function(c,e,b,f){return c([e,b],{widgets:null,callback:null,constructor:function g(h){f.mixin(this,h)},buildWidgets:function a(h){this.processWidgets(this.widgets,h)},allWidgetsProcessed:function d(h){if(typeof this.callback==="function"){this.callback(h)}}})});

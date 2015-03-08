@@ -1,0 +1,1 @@
+define(["dojo/_base/declare","alfresco/documentlibrary/views/AlfDocumentListView"],function(c,b){return c([b],{viewSelectionConfig:{label:"doclist.view.detailed.label",iconClass:"alf-detailedlist-icon"},getViewName:function a(){return"detailed"},cssRequirements:[{cssFile:"./css/AlfSearchListView.css"}],widgets:[{name:"alfresco/search/AlfSearchResult"}]})});

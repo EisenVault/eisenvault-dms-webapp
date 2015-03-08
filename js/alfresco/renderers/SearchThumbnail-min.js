@@ -1,0 +1,1 @@
+define(["dojo/_base/declare","alfresco/renderers/Thumbnail","alfresco/search/SearchThumbnailMixin","dojo/dom-class"],function(b,e,a,c){return b([e,a],{cssRequirements:[{cssFile:"./css/SearchThumbnail.css"}],lastThumbnailModificationProperty:"lastThumbnailModification",postCreate:function d(){this.inherited(arguments);c.add(this.domNode,"alfresco-renderers-SearchThumbnail")}})});

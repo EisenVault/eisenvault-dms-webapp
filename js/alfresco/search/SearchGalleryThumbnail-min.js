@@ -1,0 +1,1 @@
+define(["dojo/_base/declare","alfresco/renderers/GalleryThumbnail","alfresco/search/SearchThumbnailMixin","dojo/dom-class"],function(b,c,a,d){return b([c,a],{lastThumbnailModificationProperty:"lastThumbnailModification",postCreate:function e(){this.inherited(arguments)}})});

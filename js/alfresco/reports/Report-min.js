@@ -1,0 +1,1 @@
+define(["alfresco/core/ProcessWidgets","dojo/_base/declare","dojo/_base/lang"],function(c,b,d){return b([c],{baseClass:"alfresco-reports-Report",postCreate:function a(){if(this.widgets){this.processWidgets(d.clone(this.widgets),this.containerNode)}}})});

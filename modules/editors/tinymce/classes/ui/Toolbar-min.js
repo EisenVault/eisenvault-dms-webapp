@@ -1,0 +1,1 @@
+define("tinymce/ui/Toolbar",["tinymce/ui/Container"],function(a){return a.extend({Defaults:{role:"toolbar",layout:"flow"},init:function(c){var b=this;b._super(c);b.addClass("toolbar")},postRender:function(){var b=this;b.items().addClass("toolbar-item");return b._super()}})});

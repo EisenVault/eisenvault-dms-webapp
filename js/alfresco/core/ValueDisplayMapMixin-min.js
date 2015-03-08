@@ -1,0 +1,1 @@
+define(["dojo/_base/declare","dojo/_base/lang","dojo/_base/array"],function(a,c,d){return a(null,{valueDisplayMap:null,mapValueToDisplayValue:function b(j){var g=j;if(this.valueDisplayMap!=null){var h=null;for(var f=0;f<this.valueDisplayMap.length&&h===null;f++){var e=this.valueDisplayMap[f];if(e.value===j&&e.label!==null){h=e.label}}g=(h!==null)?h:j}return g}})});

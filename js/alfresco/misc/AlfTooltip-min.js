@@ -1,0 +1,1 @@
+define(["dojo/_base/declare","dijit/Tooltip"],function(b,c){return b([c],{cssRequirements:[{cssFile:"./css/AlfTooltip.css"}],defaultPosition:["above-centered","below-centered"],showDelay:250,targetNode:null,postCreate:function a(){c.defaultPosition=this.defaultPosition;if(this.targetNode){this.addTarget(this.targetNode)}}})});

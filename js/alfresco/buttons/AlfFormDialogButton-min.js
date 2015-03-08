@@ -1,0 +1,1 @@
+define(["dojo/_base/declare","alfresco/buttons/AlfButton","alfresco/dialogs/_AlfCreateFormDialogMixin"],function(b,c,a){return b([c,a],{})});

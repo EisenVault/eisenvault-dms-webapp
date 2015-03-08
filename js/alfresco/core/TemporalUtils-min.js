@@ -1,0 +1,1 @@
+define([],function(){return{nonAmdDependencies:["/js/yui-common.js","/js/alfresco.js"],getRelativeTime:function a(b){return Alfresco.util.relativeTime(b)}}});

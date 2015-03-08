@@ -1,0 +1,1 @@
+define("tinymce/util/I18n",[],function(){var a={};return{rtl:false,add:function(d,b){for(var c in b){a[c]=b[c]}this.rtl=this.rtl||a._dir==="rtl"},translate:function(c){if(typeof(c)=="undefined"){return c}if(typeof(c)!="string"&&c.raw){return c.raw}if(c.push){var b=c.slice(1);c=(a[c[0]]||c[0]).replace(/\{([^\}]+)\}/g,function(e,d){return b[d]})}return a[c]||c},data:a}});
